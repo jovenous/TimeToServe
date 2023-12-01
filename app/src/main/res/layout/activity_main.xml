@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/logo_3rd_description"
+        android:paddingTop="36dp"
+        android:paddingBottom="36dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/logo_3rd" />
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageViewFighting"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_weight="0.5"-->
+<!--        android:adjustViewBounds="true"-->
+<!--        android:contentDescription="@null"-->
+<!--        android:padding="38dp"-->
+<!--        android:scaleType="centerCrop"-->
+<!--        android:src="@drawable/zombie_title" />-->
+
+
+    <TextView
+        android:id="@+id/textViewFighting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/abhaya_libre_medium"
+        android:includeFontPadding="false"
+        android:letterSpacing="0.35"
+        android:paddingTop="8dp"
+        android:paddingBottom="0dp"
+        android:text="@string/Fighting"
+        android:textAlignment="center"
+        android:textColor="#F6921E"
+        android:textSize="67sp"
+        android:textStyle="bold"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="30dp"
+        android:layout_gravity="center"
+
+        />
+
+    <TextView
+        android:id="@+id/textViewIn3rd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-25dp"
+        android:fontFamily="sans-serif-thin"
+        android:includeFontPadding="false"
+        android:letterSpacing="0"
+        android:lineSpacingExtra="-8dp"
+        android:paddingBottom="0pt"
+        android:text="@string/in_3rd_assualt"
+        android:textAlignment="center"
+        android:textColor="#F6921E"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:hint="@string/username_hint"
+        android:inputType="textCapWords" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        android:hint="@string/password_hint"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/buttonSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        android:text="@string/sign_in_button"
+
+        />
+
+
+</LinearLayout>

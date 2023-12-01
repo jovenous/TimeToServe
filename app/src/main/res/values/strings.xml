@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Veolia Example</string>
+    <string name="logo_3rd_description">Logo 3rd SMBr</string>
+    <string name="Fighting">БИЙСЯ</string>
+    <string name="username_hint">Ім\'я користувача</string>
+    <string name="password_hint">Пароль</string>
+    <string name="sign_in_button">Вхід</string>
+    <string name="in_3rd_assualt">у третій штурмовій</string>
+    <string name="where_you_want">Де ти, %s, хочеш служити?</string>
+    <string name="anywhere">Будь-де</string>
+    <string name="want_to_be_efficient_in_rear">Хочу бути ефективним в тилу</string>
+    <string name="what_do_you_want_to_be">Ким ти, %s, хочеш бути?</string>
+    <string name="rifleman">Стрілець</string>
+    <string name="medic">Медик</string>
+    <string name="air_defence_operator">Оператор ППО</string>
+    <string name="choose_your_weapon">Вибери собі зброю</string>
+    <string name="go_on">Перейти далі</string>
+    <string name="military_specialty">Військова спеціальність:</string>
+    <string name="where_to_serve">Де служити:</string>
+    <string name="name">Ім\'я:</string>
+    <string name="choice_of_weapons">Вибір зброї:</string>
+    <string name="error_fields_empty">Будь ласка, заповніть всі поля!</string>
+
+    <array name="types_of_front_guns">
+        <item>Автомат "AK-74"</item>
+        <item>Кулемет "M-240"</item>
+        <item>Штурмова гвинтівка "Малюк"</item>
+    </array>
+
+    <array name="types_of_rear_guns">
+        <item>Штурмова гвинтівка "Colt C8"</item>
+        <item>Штурмова гвинтівка "UAR-15"</item>
+        <item>Бойовий пістолет "Форт-17"</item>
+    </array>
+</resources>
